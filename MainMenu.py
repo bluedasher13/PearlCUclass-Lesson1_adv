@@ -6,6 +6,8 @@ def init():
     print("1. 選項一")
 		# 顯示選項二
     print("2. 選項二")
+
+
 # 這個函式會接收一個參數，並根據參數判斷要回傳什麼內容的字串
 def action(user_choice):
     # 如果選擇為1，顯示相應的訊息
@@ -13,7 +15,8 @@ def action(user_choice):
         return "你選擇了選項一。"
     # 如果選擇為2，顯示相應的訊息
     elif user_choice == '2':
-        return "你選擇了選項二。"
+        return "你選擇了選項二。"            
+
 # 程式的主入口點，確保只在直接執行這個程式時執行以下代碼
 if __name__ == "__main__":
     # 顯示主選單說明文字
